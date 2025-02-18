@@ -39,7 +39,7 @@ export default function PostList() {
 
         const newPostObj = {
             // Genera un nuovo id incrementale
-            id: posts.length + 1,
+            id: posts[posts.length - 1].id + 1,
             // Usa il valore dell'input
             title: newPost
         };
